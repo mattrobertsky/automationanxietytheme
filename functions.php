@@ -15,4 +15,9 @@ function my_theme_enqueue_styles() {
 }
 
 
+// edit header dimensions here
+define( 'HEADER_IMAGE_WIDTH', apply_filters( 'twentyeleven_header_image_width', 1023 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 390 ) );
+
+
 ?>

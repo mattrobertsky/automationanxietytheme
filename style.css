@@ -12,3 +12,27 @@
  Text Domain:  twenty-eleven-child
 */
 
+#branding .only-search #s {
+    background-color: #ff9d9d;
+}
+
+#branding .only-search #s:focus {
+    background-color: #fff;
+}
+
+#site-generator {
+    display: none;
+}
+
+footer img[class*="align"], img[class*="wp-image-"] {
+    border: none;
+    padding: 6px;
+    max-width: 97.5%;
+    max-width: calc( 100% - 14px );
+    vertical-align: middle;
+}
+
+.hentry {
+    border: none;
+}
+
