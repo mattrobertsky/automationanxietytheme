@@ -27,9 +27,16 @@
 footer img[class*="align"], img[class*="wp-image-"] {
     border: none;
     padding: 6px;
-    max-width: 97.5%;
     max-width: calc( 100% - 14px );
     vertical-align: middle;
+}
+
+footer img[class*="align"] {
+    padding: 6px 6px 6px 0;
+}
+
+footer .partner img[class*="align"] { 
+    max-width: calc( 49% - 6px);
 }
 
 .hentry {
