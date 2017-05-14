@@ -43,3 +43,13 @@ footer .partner img[class*="align"] {
     border: none;
 }
 
+@media (max-width: 650px) {
+   #branding #searchform {
+      left: calc( 7.6% + 30px);
+      top: 2vw !important;
+   }
+   #branding .with-image #searchform {
+      max-width: 64px;
+   }
+}
+
